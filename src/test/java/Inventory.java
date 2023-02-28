@@ -11,7 +11,6 @@ import java.util.UUID;
 
 public class Inventory {
     public static void main(String [] args){
-        System.out.println("HELLO");
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver");
         WebDriver driver = new ChromeDriver();
         WebDriverWait await = new WebDriverWait(driver, 5);
